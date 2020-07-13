@@ -1,17 +1,51 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 *{
   box-sizing: border-box;
   margin: 0 !important;
   padding: 0 !important;
+  background-color: burlywood;
+  font-family: 'Oswald', sans-serif;
+
 }
 
+/* .container{
+display: flex;
+justify-content: center;
+}  */
+.top-head{
+  display: flex;
+  padding: 100px;
+  justify-content: space-evenly;
+}
+.hobby1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.name{
+display:flex;
+justify-content: center;
 
-
+}
 img{
+  margin-bottom: 200px;
   border-radius: 20px;
   border: black solid;
   display: flex;
+  align-items: flex-start;
+  justify-content:space-around;
   width: 200px;
   height: 200px;
+
+}
+.hobby-para{
+  display: flex;
+  padding: 60px;
+  text-align: center;
+  
+
+
 
 }

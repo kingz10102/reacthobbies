@@ -3,7 +3,7 @@ import React from 'react';
 
 function Hobbies(props) {
     return (
-        <div className="container">
+        <div className="box-wrap">
             <div className="hobby1">
             <div className="hobbyname">
             <h3 className="name">{props.name}</h3>
@@ -12,7 +12,7 @@ function Hobbies(props) {
                 <img src={props.photo} alt= "Hobby type"/>
             </div>
             <div className="hobbyDescription">
-            <p>{props.description}</p>
+            <p className="hobby-para">{props.description}</p>
             </div>
         </div>
     </div>
